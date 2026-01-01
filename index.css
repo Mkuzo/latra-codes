@@ -1,0 +1,154 @@
+body{
+    max-width: 1200px;
+}
+.latra-container{
+    width: 100%;
+    height: auto;
+    /* background-color: green; */
+}
+.latra-wrapper{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: red; */
+}
+.latra-wrapper img{
+    width: 15%;
+    height: 15%;
+}
+.latra-wrapper h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+}
+.latra-navigation{
+    width: 100%;
+    height: auto;
+    background-color: #f08f10;
+}
+.latra-nav{
+    width: 100%;
+    height: 100%;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 40px;
+    padding: 30px;
+    
+}
+.latra-gallery{
+    width: 100%;
+    height: 900px;
+    /* background-color: rgb(19, 19, 18); */
+    /* background-color: #eb9202; */
+    background-color: rgb(220, 222, 224);
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.latra-gallery-wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.latra-card{
+    width: 300px;
+    height: 550px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 6px 10px rgb(133, 133, 133);
+    /* background-color: white; */
+    border-top: 3px solid #fd9103;
+    margin-top: 20px;
+}
+.latra-gallery-text{
+    width: 100%;
+    height: 40%;
+}
+.latra-gallery-text h1{
+    font-size:  1.12rem;
+    letter-spacing: .05;
+}
+.latra-gallery-img{
+    width:  100%;
+    height: 60%;
+}
+
+.latra-staff-card{
+ margin-top: 20px;
+ border-top: 3px solid #fd9103;
+ width: 250px;
+ height: 550px;   
+ background-color: rgb(255, 255, 255);
+ box-shadow: 7px 6px 10px rgb(133, 133, 133);
+}
+.latra-staff-card-text{
+    width: 100%;
+    height: 40%;
+}
+.latra-gallery-staff-text h1{
+    font-size: 1.12rem;
+    letter-spacing: .05;
+    font-family: monospace;
+}
+.latra-gallery-staff-img{
+    width: 100%;
+    height: 60%;
+}
+.latra-gallery-staff-img img{
+    width: 100%;
+    height: 100%;
+}
+.latra-gallery-Quick-links{
+    margin-top: 20px;
+    border-top: 3px solid #fd9103;
+    width: 300px;
+    height: 900px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 7px 6px 10px rgb(133, 133, 133);
+}
+#result{
+    width: 100%;
+    height: 70%;
+    margin-top: 10px;
+    object-fit: contain;
+}
+/* .carousel-inner i{
+    color: white;
+} */
+#image{
+    width: 100%;
+    height: 100%;
+    position:static;
+    top: 0;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+.wrapper-i{
+    width: 100%;
+    height: 100%;
+    color: white;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wrapper-i i{
+    padding: 10px; 
+}
+.carousel-inner{
+    position: relative;
+}
