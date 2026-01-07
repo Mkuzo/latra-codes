@@ -63,7 +63,7 @@ body{
     /* align-items: center; */
 }
 .latra-card{
-    width: 300px;
+    width: 450px;
     height: 550px;
     background-color: rgb(255, 255, 255);
     box-shadow: 7px 6px 10px rgb(133, 133, 133);
@@ -73,7 +73,7 @@ body{
 }
 .latra-gallery-text{
     width: 100%;
-    height: 40%;
+    height: 10%;
 }
 .latra-gallery-text h1{
     font-size:  1.12rem;
@@ -82,6 +82,11 @@ body{
 .latra-gallery-img{
     width:  100%;
     height: 60%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .latra-staff-card{
@@ -107,7 +112,7 @@ body{
 }
 .latra-gallery-staff-img img{
     width: 100%;
-    height: 100%;
+    height: 90%;
 }
 .latra-gallery-Quick-links{
     margin-top: 20px;
@@ -135,6 +140,9 @@ body{
 .wrapper{
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .wrapper-i{
     width: 100%;
@@ -148,7 +156,44 @@ body{
 }
 .wrapper-i i{
     padding: 10px; 
+    color: white;
+    cursor: pointer;
+}
+.wrapper-i i:hover{
+    color: orangered;
 }
 .carousel-inner{
     position: relative;
+}
+.wrapper h2{
+    font-size: 1.5rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#image{
+    width: 95%;
+    height: 100%;
+}
+#img{
+    width: 90%;
+    height: 100%;
+}
+.wrapper-i2{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    height: 100%;
+    color: white;
+}
+.wrapper-i2 i{
+    cursor: pointer;
+}
+.wrapper-i2 i:hover{
+    color: orangered;
+}
+.latra-gallery-img h2{
+    font-size: 1.3rem;
+    text-align: center;
 }
